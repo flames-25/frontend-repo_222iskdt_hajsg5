@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-black/40 border-b border-white/10">
       <div className="max-w-7xl mx-auto px-4 py-3 md:py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-fuchsia-500 via-violet-500 to-cyan-400 text-white shadow-lg shadow-fuchsia-500/30">
+          <span className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-emerald-500 via-green-500 to-lime-400 text-black shadow-lg shadow-emerald-500/30">
             <Rocket size={18} />
           </span>
           <div className="leading-tight">
@@ -32,7 +32,7 @@ export default function Navbar() {
           <NavLink href="#contact">Kontak</NavLink>
           <a
             href="#contact"
-            className="inline-flex items-center gap-2 rounded-full bg-white text-black px-4 py-2 text-sm font-medium hover:shadow-[0_0_40px_-10px_rgba(168,85,247,0.8)] transition-shadow"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-emerald-400 to-lime-300 text-black px-4 py-2 text-sm font-medium hover:from-emerald-300 hover:to-lime-200 transition-colors"
           >
             Mulai Sekarang
           </a>
@@ -55,7 +55,7 @@ export default function Navbar() {
             <NavLink href="#contact">Kontak</NavLink>
             <a
               href="#contact"
-              className="inline-flex w-fit items-center gap-2 rounded-full bg-white text-black px-4 py-2 text-sm font-medium"
+              className="inline-flex w-fit items-center gap-2 rounded-full bg-gradient-to-r from-emerald-400 to-lime-300 text-black px-4 py-2 text-sm font-medium"
             >
               Mulai Sekarang
             </a>
